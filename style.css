@@ -1,0 +1,62 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+/*SOME FUN COLORS!!!*/
+/* CSS HEX */
+/*--oxford-blue: #081945ff;*/
+/*--xiketic: #0f0c12ff;*/
+/*--xiketic-2: #261519ff;*/
+/*--dark-purple: #3d263dff;*/
+/*--dark-blue-gray: #6a6fa3ff;*/
+/*--melon: #ecab9eff;*/
+
+/* CSS HSL */
+/*--oxford-blue: hsla(223, 79%, 15%, 1);*/
+/*--xiketic: hsla(270, 20%, 6%, 1);*/
+/*--xiketic-2: hsla(346, 29%, 12%, 1);*/
+/*--dark-purple: hsla(300, 23%, 19%, 1);*/
+/*--dark-blue-gray: hsla(235, 24%, 53%, 1);*/
+/*--melon: hsla(10, 67%, 77%, 1);*/
+
+/* SCSS HEX */
+/*$oxford-blue: #081945ff;*/
+/*$xiketic: #0f0c12ff;*/
+/*$xiketic-2: #261519ff;*/
+/*$dark-purple: #3d263dff;*/
+/*$dark-blue-gray: #6a6fa3ff;*/
+/*$melon: #ecab9eff;*/
+
+/* SCSS HSL */
+/*$oxford-blue: hsla(223, 79%, 15%, 1);*/
+/*$xiketic: hsla(270, 20%, 6%, 1);*/
+/*$xiketic-2: hsla(346, 29%, 12%, 1);*/
+/*$dark-purple: hsla(300, 23%, 19%, 1);*/
+/*$dark-blue-gray: hsla(235, 24%, 53%, 1);*/
+/*$melon: hsla(10, 67%, 77%, 1);*/
+
+/* SCSS RGB */
+/*$oxford-blue: rgba(8, 25, 69, 1);*/
+/*$xiketic: rgba(15, 12, 18, 1);*/
+/*$xiketic-2: rgba(38, 21, 25, 1);*/
+/*$dark-purple: rgba(61, 38, 61, 1);*/
+/*$dark-blue-gray: rgba(106, 111, 163, 1);*/
+/*$melon: rgba(236, 171, 158, 1);*/
+
+/* SCSS Gradient */
+/*$gradient-top: linear-gradient(0deg, #081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+/*$gradient-right: linear-gradient(90deg, #081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+/*$gradient-bottom: linear-gradient(180deg, #081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+/*$gradient-left: linear-gradient(270deg, #081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+/*$gradient-top-right: linear-gradient(45deg, #081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+/*$gradient-bottom-right: linear-gradient(135deg, #081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+/*$gradient-top-left: linear-gradient(225deg, #081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+/*$gradient-bottom-left: linear-gradient(315deg, #081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+/*$gradient-radial: radial-gradient(#081945ff, #0f0c12ff, #261519ff, #3d263dff, #6a6fa3ff, #ecab9eff);*/
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+  /*display: flex;*/
+}
