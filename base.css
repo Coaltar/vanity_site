@@ -1,0 +1,82 @@
+@font-face {
+  font-family: kong;
+  src: url(fonts/kongtext.ttf);
+}
+
+body {
+  /* background-color: #009fb7; */
+  background-image: url(marble_pattern.jpg);
+  background-repeat: repeat;
+}
+
+  
+div {
+  max-width: 80%;
+  margin: 0 auto;
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+}
+
+h1, h2, p{
+  text-align: center;
+}
+
+
+.site-links {
+  margin: 0 auto;
+  background-color:#272727;
+  color: #FED766;
+  border: 1px solid black;
+  padding: 4px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-links a {
+  margin: 1% 5%;
+  style: bold;
+  font-weight: bold;
+}
+
+
+.chatbox {
+  margin: 10px auto;
+  background-color: rgb(190, 190, 190);
+}
+
+.chatbox  { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 3px solid black;
+}
+
+.chatbox-text {
+  background-color: blue;
+  color:rgb(190, 190, 190);
+  font-family: kong;
+  font-size: 1.2rem;
+
+  /* color:#FED766; */
+  text-align: left;
+  padding: 20px;
+  margin: auto;
+  margin: 10px 10px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+
+.main {
+  display: flex;
+}
+
+.contact-list {
+  background-color: #33ff11;
+}
+
+.contact-list ul {
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+}
