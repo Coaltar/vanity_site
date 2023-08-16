@@ -38,12 +38,10 @@ h1, h2, p{
 }
 
 
-.chatbox {
-  margin: 10px auto;
-  background-color: rgb(190, 190, 190);
-}
 
 .chatbox  { 
+  margin: 10px auto;
+  background-color: rgb(190, 190, 190);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -68,15 +66,4 @@ h1, h2, p{
 
 .main {
   display: flex;
-}
-
-.contact-list {
-  background-color: #33ff11;
-}
-
-.contact-list ul {
-  display: flex;
-  flex-direction: column;
-
-  list-style: none;
 }
