@@ -1,0 +1,6 @@
+:root {
+    --article-background: #bf00ff;
+}
+article {
+    background-color: var(--article-background);
+}
