@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  
 
   <div class="site-links">
     <a href="japanese/learning_japanese.html">japanese stuff</a>
@@ -23,6 +24,9 @@
   <main id="page-content">
     <div class="chatbox">
       <img class="chatbox-icon" src="tempicon.png">
+      <p id="chatbox" class="chatbox-text">
+        test
+      </p>
       <p class="chatbox-text">
         Welcome to my new site! I hope you like it here.
         <br/>
@@ -38,6 +42,30 @@
 
       <p> Well, I guess this is a website!
     </div>
+    
+<script>
+  function typeText(elementId, text, speed) {
+      let index = 0;
+      const outputElement = document.getElementById(elementId);
+  
+      function addCharacter() {
+          outputElement.textContent += text[index];
+          index++;
+  
+          if (index === text.length) {
+              clearInterval(typingInterval);
+          }
+      }
+  
+      const typingInterval = setInterval(addCharacter, speed);
+  }
+  
+  // Example usage
+  const message = "Hello, this is a chat message!";
+  const typingSpeed = 100; // Speed in milliseconds
+  
+  typeText("chatbox", message, typingSpeed);
+  </script>
   </main>
 
 
